@@ -1,0 +1,244 @@
+body {
+    font-family: Segoe UI, sans-serif;
+    background: #f8f5f2;
+}
+
+/* Navbar */
+
+.custom-nav,
+.navbar {
+    background: #5a1f0f;
+}
+
+
+.hero {
+    padding: 60px 0;
+}
+
+#home.hero {
+    background: linear-gradient(135deg, #2b0d08 0%, #5a1e13 40%, #8b4513 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    padding: 100px 20px;
+}
+
+.hero-logo {
+    width: 220px;
+    filter: drop-shadow(0 0 25px rgba(212, 164, 75, .7));
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card h5 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.img-size {
+    width: auto;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-size2 {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+}
+
+.info-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+}
+
+.section-title {
+    color: #5a1f0f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+    color: white;
+}
+
+
+.about-section {
+    background: white;
+    padding: 80px 20px;
+}
+
+/*Footer */
+
+.footer {
+    background: #5a1f0f;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Floating WhatsApp*/
+
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 5px 20px rgba(37, 211, 102, .4);
+    z-index: 9999;
+    transition: .3s;
+    animation: whatsappJump 1s infinite ease-in-out;
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+    color: white;
+    transform: translateY(-3px);
+    animation-play-state: paused;
+}
+
+@keyframes whatsappJump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+
+.service-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(255, 193, 7, 0.2);
+    border-color: #ffc107;
+}
+
+
+/* .img-size {
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.service-card:hover .img-size {
+    transform: scale(1.05); 
+}
+
+.service-card h5 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #212529;
+}
+
+
+.mobile-slider {
+    display: none;
+}
+.desktop-grid {
+    display: flex;
+}
+
+.mobile-slider-wrapper {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .mobile-slider-wrapper {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .service-card.preview-mode {
+        background: #f8f9fa;
+        border: 2px dashed #ffc107; 
+        margin: 0 10px;
+    }
+    .mobile-full-grid .col-12 {
+        margin-bottom: 25px;
+    }
+
+    .service-card {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .img-size {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+} */

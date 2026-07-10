@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tn75creation.vercel.app/sitemap.xml
