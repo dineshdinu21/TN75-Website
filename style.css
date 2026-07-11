@@ -3,6 +3,11 @@ body {
     background: #f8f5f2;
 }
 
+@media(max-width:768px){
+    body{
+        padding-top: 85px;
+    }
+}
 /* Navbar */
 
 .custom-nav,
