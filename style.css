@@ -183,6 +183,16 @@ body {
 }
 
 
+.navbar-nav .nav-link {
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 1 !important;
+    color: #ffffff !important;
+}
+
 /* .img-size {
     object-fit: cover;
     border-radius: 12px;
