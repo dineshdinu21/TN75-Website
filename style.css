@@ -1,13 +1,9 @@
 body {
     font-family: Segoe UI, sans-serif;
     background: #f8f5f2;
+    padding-top: 50px;
 }
 
-@media(max-width:768px){
-    body{
-        padding-top: 85px;
-    }
-}
 /* Navbar */
 
 .custom-nav,
