@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <meta property="og:title" content="TN75 Creation | Customized Gifts & Printing Services" />
-    <meta property="og:description" content="TN75 Creation - Best customized photo frames, acrylic gifts, and printing services in Kappukadu." />
+    <meta property="og:description"
+        content="TN75 Creation - Best customized photo frames, acrylic gifts, and printing services in Kappukadu." />
     <meta property="og:site_name" content="TN75 Creation" />
     <meta property="og:url" content="https://tn75creation.vercel.app" />
     <meta property="og:type" content="website" />
@@ -32,8 +33,17 @@
             .mobile-slider-wrapper {
                 display: none;
             }
-            .photo-frame2{
+
+            .h2-arrow {
                 display: none;
+            }
+
+            .jercy {
+                margin-top: -18px;
+            }
+
+            .flex-word {
+                margin-top: 1.5rem;
             }
         }
 
@@ -41,9 +51,11 @@
             .hero {
                 display: none !important;
             }
-            .photo-frame{
+
+            .h2 {
                 display: none !important;
             }
+
             .whatsappus {
                 display: none !important;
             }
@@ -54,23 +66,41 @@
                 object-fit: cover;
                 border-radius: 10px;
             }
-            .service-card{
+
+            .service-card {
                 padding: 15px;
             }
-            .ribbon,.cup{
+
+            .ribbon,
+            .cup {
                 height: 280px;
             }
+
         }
-        @media (max-width:400px){
-            .frames{
+
+        @media (max-width:400px) {
+            .frames {
                 width: 100%;
                 padding-top: 7px;
                 border-radius: 15px;
 
             }
         }
-        
-        
+
+        @media(min-width:1500px) {
+            .img-size {
+                height: 450px;
+            }
+
+            .flex {
+                height: 430px;
+            }
+
+            .flex-word {
+                margin-top: 0;
+            }
+
+        }
     </style>
 
 </head>
@@ -144,14 +174,15 @@
         </div>
 
 
-        <h2 class="text-center my-5">Our Services⬇️</h2>
+        <h2 class="text-center my-5 h2-arrow">Our Services⬇️</h2>
+        <h2 class="text-center my-5 h2">Our Services</h2>
         <div class="row g-4 mobile-full-grid">
 
             <!-- 1. Photo Frames -->
             <div class="col-lg-3 col-md-6 col-12">
                 <a href="photo-frames.html" class="text-decoration-none text-dark">
                     <div class="service-card">
-                        <img src="images/photo-frame.png" alt="Photo Frames" class="img-size photo-frame">
+                        <!-- <img src="images/photo-frame.png" alt="Photo Frames" class="img-size photo-frame"> -->
                         <img src="images/photo-frame2.png" alt="Photo Frames" class="img-size photo-frame2">
                         <h5>Photo Frames</h5>
                     </div>
@@ -193,8 +224,10 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <a href="flex.html" class="text-decoration-none text-dark">
                     <div class="service-card">
-                        <img src="images/flex.jpg" alt="Flex Printing" class="img-size2">
-                        <h5>Flex Printing</h5>
+                        <img src="images/flex.jpg" alt="Flex Printing" class="img-size2 flex">
+                        <div class="flex-word">
+                            <h5>Flex Printing</h5>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -223,7 +256,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <a href="jersey.html" class="text-decoration-none text-dark">
                     <div class="service-card">
-                        <img src="images/jersey.webp" alt="Jersey Printing" class="img-size2">
+                        <img src="images/jersey.webp" alt="Jersey Printing" class="img-size2 jercy">
                         <h5>Jersey Printing</h5>
                     </div>
                 </a>
