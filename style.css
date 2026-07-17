@@ -73,6 +73,16 @@ body {
     border-radius: 10px;
 }
 
+.service-card2 h5 {
+    margin-top: 40px;
+}
+
+@media (min-width:450px) {
+    .jercy {
+        margin-top: -21px;
+    }
+}
+
 .product-img {
     width: 100%;
     border-radius: 15px;
@@ -185,7 +195,7 @@ body {
 
 .navbar-nav .nav-link {
     opacity: 0.7;
-    transition: opacity 0.3s ease; 
+    transition: opacity 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {

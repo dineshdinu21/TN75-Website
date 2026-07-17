@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <meta property="og:title" content="TN75 Creation | Customized Gifts & Printing Services" />
-    <meta property="og:description" content="TN75 Creation - Best customized photo frames, acrylic gifts, and printing services in Kappukadu." />
+    <meta property="og:description"
+        content="TN75 Creation - Best customized photo frames, acrylic gifts, and printing services in Kappukadu." />
     <meta property="og:site_name" content="TN75 Creation" />
     <meta property="og:url" content="https://tn75creation.vercel.app" />
     <meta property="og:type" content="website" />
@@ -28,11 +29,35 @@
     }
     </script>
     <style>
+        #products {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media (min-width:1500px) {
+
+            #products,
+            #map {
+                max-width: 1320px;
+                margin: 0 auto;
+            }
+        }
+
         @media (min-width:576px) {
             .mobile-slider-wrapper {
                 display: none;
             }
-            .photo-frame2{
+        }
+
+        @media (min-width:770px) {
+            .photo-frame {
+                display: none;
+            }
+        }
+
+        @media(max-width:768px) {
+            .photo-frame {
                 display: none;
             }
         }
@@ -41,9 +66,7 @@
             .hero {
                 display: none !important;
             }
-            .photo-frame{
-                display: none !important;
-            }
+
             .whatsappus {
                 display: none !important;
             }
@@ -54,23 +77,25 @@
                 object-fit: cover;
                 border-radius: 10px;
             }
-            .service-card{
+
+            .service-card {
                 padding: 15px;
             }
-            .ribbon,.cup{
+
+            .ribbon,
+            .cup {
                 height: 280px;
             }
         }
-        @media (max-width:400px){
-            .frames{
+
+        @media (max-width:400px) {
+            .frames {
                 width: 100%;
                 padding-top: 7px;
                 border-radius: 15px;
 
             }
         }
-        
-        
     </style>
 
 </head>
@@ -192,7 +217,7 @@
             <!-- 5. Flex Printing -->
             <div class="col-lg-3 col-md-6 col-12">
                 <a href="flex.html" class="text-decoration-none text-dark">
-                    <div class="service-card">
+                    <div class="service-card service-card2">
                         <img src="images/flex.jpg" alt="Flex Printing" class="img-size2">
                         <h5>Flex Printing</h5>
                     </div>
@@ -223,7 +248,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <a href="jersey.html" class="text-decoration-none text-dark">
                     <div class="service-card">
-                        <img src="images/jersey.webp" alt="Jersey Printing" class="img-size2">
+                        <img src="images/jersey.webp" alt="Jersey Printing" class="img-size2 jercy">
                         <h5>Jersey Printing</h5>
                     </div>
                 </a>
@@ -235,7 +260,7 @@
 
 
     <!-- Map -->
-    <section class="container-fluid py-5">
+    <section class="container-fluid py-5" id="map">
 
         <h2 class="text-center mb-4">Find Us</h2>
 
